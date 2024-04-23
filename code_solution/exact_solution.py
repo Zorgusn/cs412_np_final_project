@@ -40,7 +40,7 @@ def min_vertex_cover(graph, vertex_subsets, verticies):
         
             # once all connected verticies to the given subset is marked, check if its a cover
             if len(marked) == len(verticies):
-                print(' '.join(subset))
+                print('\n'.join(subset))
                 return
 
 
