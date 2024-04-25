@@ -1,10 +1,24 @@
 ## Exact Solution Test Cases
 
-# run exact solution with the simple test case (this is the provided one)
-python exact_solution.py < test_cases/input/9.txt > test_cases/output/9_actual_exact.txt
-# diff the simple expected and actual
-diff test_cases/output/9_actual_exact.txt test_cases/output/9_expected.txt > test_cases/diffs/9_exact_diff.txt
+# test1
+python exact_solution.py < test_cases/input/1.txt > test_cases/output/1_actual_exact.txt
+echo 'Test 1 Output:' > outcome.txt
+cat test_cases/output/1_actual_exact.txt > outcome.txt
 
+# test2
+python exact_solution.py < test_cases/input/5.txt > test_cases/output/5_actual_exact.txt
+
+# test3
+python exact_solution.py
+
+# test4
+python exact_solution.py
+
+# test5
+python exact_solution.py
+
+# test 20minute
+python exact_solution.py
 
 
 ## Approx. Solution Test Cases
