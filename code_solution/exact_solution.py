@@ -13,35 +13,20 @@ def min_vertex_cover(graph, vertex_subsets, verticies):
     for subset in vertex_subsets:
         # instantiate marked set for checking if all verticies have been covered
         marked = set()
-
-        # case for only 1 vertex being the cover
-        if subset is not tuple:
-            # mark the singular vertex
-            marked.add(subset)
-            # mark each vertex the subset is connected to
-            for to_vertex in graph[subset]:
-                marked.add(to_vertex)
             
-            # once all connected verticies to the given subset is marked, check if its a cover
-            if len(marked) == len(verticies):
-                print(subset)
-                return
-
-        # case for multiple verticies being the cover
-        else:
-            # go through each vertex of the subset
-            for from_vertex in subset:
-                # add each vertex in the subset to the marked set
-                marked.add(from_vertex)
-                # go through each vertex each vertex in the subset is connected to
-                for to_vertex in graph[from_vertex]:
-                    # add each connected vertex to the marked set
-                    marked.add(to_vertex)
-        
-            # once all connected verticies to the given subset is marked, check if its a cover
-            if len(marked) == len(verticies):
-                print('\n'.join(subset))
-                return
+        # go through each vertex of the subset
+        for from_vertex in subset:
+            # add each vertex in the subset to the marked set
+            marked.add(from_vertex)
+            # go through each vertex each vertex in the subset is connected to
+            for to_vertex in graph[from_vertex]:
+                # add each connected vertex to the marked set
+                marked.add(to_vertex)
+    
+        # once all connected verticies to the given subset is marked, check if its a cover
+        if len(marked) == len(verticies):
+            print(' '.join(subset))
+            return
 
 
 def main():
@@ -53,7 +38,7 @@ def main():
     graph = {}
     for _ in range(number_of_edges):
         # get the 2 end points of the given edge
-        from_vertex, to_vertex = input().split(' ')
+        from_vertex, to_vertex = input().split()
 
         # if the vertex doesn't already have an edge list, make one
         if to_vertex not in graph:
