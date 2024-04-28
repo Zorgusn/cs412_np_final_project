@@ -10,5 +10,6 @@ Group members: Hudson Shaeffer, Arthur Schevey
 
 ## Instructions on how to run:
 1. Enter into the code_solution folder level in your terminal.
-2. The script will print the outputs to outcome.txt.
-3. Check inside the test_cases/diff folder for all output's diff of the expected and actual solution.
+2. run ./run_test_cases.sh 
+NOTE: the run_test_cases script runs a 5 minute and 20 minute test case on both the exact and approximate, it will take almost an hour to run.
+3. The script will print the outputs to outcome.txt.

@@ -33,9 +33,16 @@
             Brief lecture section that helps with understanding of the trivial
             2-approximation algorithm.
 
+
 """
 
+
+from datetime import datetime
+
+
 def main():
+
+    start_time = datetime.now()
     
     n = int(input())
     edges = set()
@@ -52,6 +59,15 @@ def main():
     for u, v in solution:
         print(u, v, end=" ")
     print()
+
+    # Get the end time
+    end_time = datetime.now()
+
+    # Calculate the time difference
+    time_diff = end_time - start_time
+
+    # Print the time difference in a human-readable format
+    print(f"Time to run: {time_diff}")
 
     pass
 
