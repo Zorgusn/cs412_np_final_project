@@ -1,1 +1,53 @@
+Exact Solution Results:
+
+Test 1 Output:
+b
+Time to run: 0:00:00.000069
+
+Test 2 Output:
+1
+Time to run: 0:00:00.000109
+
+Test 3 Output:
+6 4 2
+Time to run: 0:00:00.000111
+
+Test 4 Output:
+7 6 3 2
+Time to run: 0:00:00.000485
+
+Test 5 Output:
+f q g u t s h d p o b i a c e l r m j n
+Time to run: 0:03:54.249578
+
+Test 5 Output:
+n i r v o t h k q c b j p u a d w f m l e s
+Time to run: 0:20:24.814917
+
+
+Approximate Solution Results:
+
+Test 1 Output:
+a b 
+Time to run: 0:00:00.000062
+
+Test 2 Output:
+1 3 
+Time to run: 0:00:00.000063
+
+Test 3 Output:
+1 2 4 3 7 6 
+Time to run: 0:00:00.000066
+
+Test 4 Output:
+4 2 3 1 6 7 
+Time to run: 0:00:00.000079
+
+Test 5 Output:
+q f b o e g p d u j k n m r s l i h t c 
+Time to run: 0:00:00.000732
+
+Test 5 Output:
+e o k a j m p r u q l i h v f c n g w t d s 
+Time to run: 0:00:00.000908
 
