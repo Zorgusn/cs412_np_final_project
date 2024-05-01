@@ -34,7 +34,7 @@ echo >> outcome.txt
 
 # test 20 minute
 python exact_solution.py < test_cases/input/20min.txt >> test_cases/output/20min_exact.txt
-echo 'Test 5 Output:' >> outcome.txt
+echo 'Test 6 Output:' >> outcome.txt
 cat test_cases/output/20min_exact.txt >> outcome.txt
 echo >> outcome.txt
 
@@ -77,6 +77,6 @@ echo >> outcome.txt
 
 # test 20 minute
 python approx_solution.py < test_cases/input/20min.txt >> test_cases/output/20min_approx.txt
-echo 'Test 5 Output:' >> outcome.txt
+echo 'Test 6 Output:' >> outcome.txt
 cat test_cases/output/20min_approx.txt >> outcome.txt
 echo >> outcome.txt

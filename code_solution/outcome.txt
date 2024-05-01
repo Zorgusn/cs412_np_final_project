@@ -20,7 +20,7 @@ Test 5 Output:
 f q g u t s h d p o b i a c e l r m j n
 Time to run: 0:03:54.249578
 
-Test 5 Output:
+Test 6 Output:
 n i r v o t h k q c b j p u a d w f m l e s
 Time to run: 0:20:24.814917
 
@@ -47,7 +47,7 @@ Test 5 Output:
 q f b o e g p d u j k n m r s l i h t c 
 Time to run: 0:00:00.000732
 
-Test 5 Output:
+Test 6 Output:
 e o k a j m p r u q l i h v f c n g w t d s 
 Time to run: 0:00:00.000908
 
